@@ -1,12 +1,12 @@
 #Given two scenarios
 
-favorite_genres = ['Si-Fy','Drama','Horror','Advantur']
+fav_genres = ['Si-Fy','Drama','Horror','Advantur']
 
-favorite_genres.append('Action')
-print(favorite_genres)
+fav_genres.append('Action')
+print(fav_genres)
 
-favorite_genres.remove('Horror')
-print(favorite_genres)
+fav_genres.remove('Horror')
+print(fav_genres)
 
 #favorite_genres is a list. And list is mutable.
 

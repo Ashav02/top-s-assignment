@@ -10,4 +10,4 @@ if order_total >= 299:
 elif order_total >=200 and order_total <=299 299:
     print("Add more items for free delivery")
 else:
-    print("Delivery Charge Apply")    
+    print("Delivery Charge Apply")
