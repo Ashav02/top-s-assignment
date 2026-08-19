@@ -2,7 +2,7 @@
 
 from pathlib import Path
 
-file = pathlib.Path("session-14/zometo_order.json")
+file = Path("session-14/zometo_order.json")
 
 if file.exists():
     print("File Exists")
