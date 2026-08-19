@@ -1,6 +1,6 @@
 import csv
 
-file = open("ipl_matches.csv", "r")
+file = open("session-14/ipl_matches.csv", "r")
 data = csv.DictReader(file)
 
 for match in data:
