@@ -1,20 +1,13 @@
 #Create an object of the Song class for your favorite track from Spotify,
 #and print out its title and artist using object attributes.
 
-class song:
-    def __init__(self, title, singer, length):
+#Class 1 (Perent)
+class Song:
+    def __init__(self, title, artist):
         self.title = title
-        self.singer =singer
+        self.artist = artist
+        print(f"My Favorite Track on Spotify {self.title} Ft.{self.artist}.")
+
+#Object
+My_Fav = Song("Sach Keh Raha Hai Deewana","B Park")
     
-
-song2 = song("Tera Yaar Hoon Main", "Arijit Singh", 300)
-
-print(song2.title)
-print(song2.singer)
-
-print("-------------")
-
-song3 = song("High Heel", "Yo Yo Honey Singh", 250)
-
-print(song3.title)
-print(song3.singer)
